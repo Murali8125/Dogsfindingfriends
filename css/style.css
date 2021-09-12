@@ -1,0 +1,187 @@
+
+/* #title
+{
+   
+    color: #fff; 
+} */
+
+.container-fluid
+{
+    padding: 7% 15%
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat-bold";
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2
+{
+    font-size: 3rem;
+}
+/* navbar section */
+
+.navbar
+{
+    padding-bottom: 2.5rem;
+    padding-left: 0px;
+
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+   
+}
+.nav-item
+{
+    padding: 0px 18px;
+}
+.nav-link
+{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Light";
+    font-weight: bold;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+
+.title-image
+{
+    width: 60%;
+    transform:rotate(30deg);
+    position: absolute;
+    right: 30%;
+} 
+@media (max-width:1028px)
+{
+    .title-image
+    {
+        position: static;
+    }
+}
+
+/* features section */
+
+#features
+{
+   
+    
+    position: relative;
+    z-index: 1;
+}
+/* .row
+{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+p
+{
+    color:#8f8f8f
+}
+.col-lg-4
+{
+    text-align: center;
+    padding: 5%;
+}
+/* .letssee
+{
+    position: relative;
+    right: 25px;
+    
+} */
+.forlarge
+{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.fas:hover
+{
+    color:#ff4c68
+}
+ /* testiomnials section */
+ #testimonials
+ {
+     text-align: center;
+     background-color: #ef8172;
+     
+    
+ }
+ .testimonial-image
+ {
+     width: 20%;
+     border-radius: 100%;
+     margin: 20px;
+ }
+ /* press */
+ 
+ #press
+ {
+     text-align: center;
+     padding-bottom: 3%;
+     background-color: #ef8172;
+ }
+ .forsmallsizeimage
+ {
+     width: 15%;
+     margin: 20px 20px 50px;
+ }
+ /* pricing section */
+ #pricing
+ {
+     padding: 100px;
+ }
+ .col-lg-4
+ {
+     padding: 3% 3%;
+     text-align: center;
+ }
+ #cta
+ {
+     
+     text-align: center;
+     font-family: "Montserrat-Light";
+     
+ }
+ .luckk
+ {
+     font-size: 2.5rem;
+     
+ }
+ #footer
+ {
+   text-align: center;
+   margin-top: 50px;
+ } 
+#title .container-fluid
+{
+    padding: 3% 15% 7%;
+} 
+ /* .copyright
+ {
+     margin-top: 10px;
+ } */
+ .coloured-section
+ {
+     background-color: #ff4c68;
+ }
+ .white-section
+ {
+     background-color: #fff;
+ }
+ .testimonial-text
+ {
+     color:#fff
+ }
+ .luck{
+     font-size: 3rem;
+
+ }
